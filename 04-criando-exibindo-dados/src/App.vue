@@ -43,7 +43,7 @@ export default {
   // Executado quando o componente é montado, seta um titulo e algumas tarefas depois de 3 segundos
   mounted() {
     setTimeout(() => {
-      this.titulo = "novo titulo"
+      this.titulo = "Novo título"
       this.tarefas = ['tarefa  1', 'tarefa 2', 'tarefa 3', 'tarefa 4' ]
     }, 3000 )
   }
